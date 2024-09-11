@@ -7,6 +7,7 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
 }
 
 body {
@@ -165,7 +166,10 @@ section#home {
 }
 
 #home{
+  position: relative;
   display: flex;
+  width: 110vw;
+  left: -5vw;
   /* background-color: red; */
 }
 
